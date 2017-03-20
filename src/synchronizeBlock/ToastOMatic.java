@@ -13,9 +13,13 @@ import java.util.concurrent.TimeUnit;
  */
 public class ToastOMatic {
     public static void main(String[] args) throws InterruptedException {
+        //新建阻塞队列
         ToastQueue dryQueue = new ToastQueue();
         ToastQueue butteredQueue = new ToastQueue();
         ToastQueue finishedQueue = new ToastQueue();
+
+
+
 
         ExecutorService exec = Executors.newCachedThreadPool();
         exec.execute(new Toaster(dryQueue));
