@@ -14,6 +14,7 @@ public class CachedThreadPool {
         for (int i=0;i<5;i++){
             exec.execute(new LiftOff());
         }
+        //待所有线程结束，停止提交线程
         exec.shutdown();
     }
 
