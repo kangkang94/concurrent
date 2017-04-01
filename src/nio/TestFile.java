@@ -7,6 +7,7 @@ package nio;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.TreeSet;
 
 /**
  * Static functions for reading and writing text files as a single string,and treating a file as ArrayList.
@@ -85,6 +86,22 @@ public class TestFile extends ArrayList<String>{
         }finally {
             out.close();
         }
+
+    }
+
+
+    public static void main(String[] args) {
+
+        String file = read("/Users/kang/Documents/github/concurrent/src/nio/StoringAndRecoveringData.java");
+
+        write("/Users/kang/Documents/github/concurrent/src/nio/S.txt",file);
+
+        TestFile testFile = new TestFile("/Users/kang/Documents/github/concurrent/src/nio/S.txt");
+        testFile.write("/Users/kang/Documents/github/concurrent/src/nio/S2.txt");
+
+        TreeSet<String> treeSet = new TreeSet<>(new TestFile("/Users/kang/Documents/github/concurrent/src/nio/StoringAndRecoveringData.java","\\W+"));
+
+        System.out.println(treeSet.headSet("a"));
 
     }
 
