@@ -7,6 +7,7 @@ package nio;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.TreeSet;
 
 /**
@@ -62,8 +63,9 @@ public class TestFile extends ArrayList<String>{
 
     //Read a file,split by any regular expression
     public TestFile(String fileName,String splitter){
-
         super(Arrays.asList(fileName.split(splitter)));
+     //   List list =Arrays.asList(fileName.split(splitter));
+
         if (get(0).equals(" "))
             remove(0);
 
@@ -101,7 +103,7 @@ public class TestFile extends ArrayList<String>{
 
         TreeSet<String> treeSet = new TreeSet<>(new TestFile("/Users/kang/Documents/github/concurrent/src/nio/StoringAndRecoveringData.java","\\W+"));
 
-        System.out.println(treeSet.headSet("a"));
+        System.out.println(treeSet);
 
     }
 
