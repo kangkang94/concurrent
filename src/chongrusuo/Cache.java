@@ -13,17 +13,17 @@ public class Cache {
     static Map<String,String> map = new HashMap<>();
     //读写锁
     static ReentrantReadWriteLock rrw = new ReentrantReadWriteLock();
-    static Lock readLock = rrw.readLock();
+    static Lock lock = rrw.readLock();
     static Lock writeLock = rrw.writeLock();
 
     public static final Object get(String key){
 
-        readLock.lock();
+        lock.lock();
         try{
             return map.get(key);
 
         }finally {
-            readLock.unlock();
+            lock.unlock();
         }
 
     }
