@@ -14,14 +14,14 @@ public class StoringAndRecoveringData {
 
     public static void main(String[] args) throws IOException {
 
-        DataOutputStream out = new DataOutputStream(new BufferedOutputStream(new FileOutputStream("/Use" +
+        DataOutputStream dataOutputStream = new DataOutputStream(new BufferedOutputStream(new FileOutputStream("/Use" +
                 "rs/kang/Documents/github/concurrent/src/nio/hello.txt")));
-        out.writeDouble(3.141513);
-        out.writeUTF("That was pi");
-        out.writeUTF("Hello World");
-        out.writeDouble(1.145);
+        dataOutputStream.writeDouble(3.141513);
+        dataOutputStream.writeUTF("That was pi");
+        dataOutputStream.writeUTF("Hello World");
+        dataOutputStream.writeDouble(1.145);
 
-        out.close();
+        dataOutputStream.close();
         DataInputStream in = new DataInputStream(new BufferedInputStream(new FileInputStream("/Users/kang/Documents/github/concurrent/src/nio/hello.txt")));
        System.out.println(in.readDouble());
         System.out.println(in.readUTF());
