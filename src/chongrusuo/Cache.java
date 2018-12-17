@@ -29,11 +29,11 @@ public class Cache {
     }
 
 
-    public static void put(String key,String value){
+    public static void put(String s,String value){
         writeLock.lock();
         try{
 
-            map.put(key,value);
+            map.put(s,value);
 
         }finally {
             writeLock.unlock();
