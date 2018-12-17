@@ -11,9 +11,9 @@ public class TestEOF {
 
         DataInputStream in = new DataInputStream(new BufferedInputStream(new FileInputStream("/Users/kang/Documents/github/concurrent/src/nio/TestEOF.java")));
 
-        int c;
+        int i;
         //查看还有多少供存取的字符，一次一个字节地读取文件
-        while((c=in.available())!=0){
+        while((i=in.available())!=0){
 
             System.out.print((char)in.readByte());
         }

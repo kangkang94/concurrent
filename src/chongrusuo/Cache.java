@@ -16,11 +16,11 @@ public class Cache {
     static Lock lock = rrw.readLock();
     static Lock writeLock = rrw.writeLock();
 
-    public static final Object get(String key){
+    public static final Object get(String s){
 
         lock.lock();
         try{
-            return map.get(key);
+            return map.get(s);
 
         }finally {
             lock.unlock();
