@@ -2,8 +2,87 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f84b217e-c9df-4ea6-ac4c-26491135a057" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/AbstractQueuedSynchronizer/TwinsLock$Sync.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/AbstractQueuedSynchronizer/TwinsLock.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/AbstractQueuedSynchronizer/TwinsLockTest$1Worker.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/AbstractQueuedSynchronizer/TwinsLockTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/JVM/HeapOOM$OOMobject.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/JVM/HeapOOM.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/ThreadHelper/Car.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/ThreadHelper/WaxOMatic.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/ThreadHelper/WaxOff.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/ThreadHelper/WaxOn.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/atomicK/AtomicIntegerArrayTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/atomicK/AtomicIntegerTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/atomicK/AtomicReferenceTest$User.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/atomicK/AtomicReferenceTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/chongrusuo/ArrayBlockQueue.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/chongrusuo/BoundedQueue.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/chongrusuo/Cache.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/chongrusuo/Consumer.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/chongrusuo/DeadLockDemo$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/chongrusuo/DeadLockDemo$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/chongrusuo/DeadLockDemo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/chongrusuo/FairAndUnfairTest$ReentrantLock2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/chongrusuo/FairAndUnfairTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/chongrusuo/Producer.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/chongrusuo/Storage.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/multiThread/AttemptLocking$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/multiThread/AttemptLocking.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/multiThread/CachedThreadPool.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/multiThread/CallableDemo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/multiThread/EvenGenerator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/multiThread/EventChecker.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/multiThread/IntGenerator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/multiThread/Jioner.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/multiThread/LiftOff.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/multiThread/MainThread.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/multiThread/SimpleDaemons.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/multiThread/SimplePriorities.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/multiThread/Sleeper.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/multiThread/TaskWithResult.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/nio/BasicFileOutput.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/nio/BufferedInputFile.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/nio/FormattedMemoryInput.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/nio/MemoryInput.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/nio/StoringAndRecoveringData.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/nio/TestEOF.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/nio/TestFile.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/nio/UsingRandomAccessFile.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/produceAndConsume/Chef.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/produceAndConsume/Meal.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/produceAndConsume/Restaurant.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/produceAndConsume/WaitPerson.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/synchronizeBlock/Accessor.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/synchronizeBlock/Butterer.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/synchronizeBlock/Count.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/synchronizeBlock/Eater.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/synchronizeBlock/Entrance.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/synchronizeBlock/Garden.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/synchronizeBlock/Jammer.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/synchronizeBlock/ThreadLocalVariableHolder$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/synchronizeBlock/ThreadLocalVariableHolder.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/synchronizeBlock/Toast$Status.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/synchronizeBlock/Toast.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/synchronizeBlock/ToastOMatic.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/synchronizeBlock/ToastQueue.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/synchronizeBlock/Toaster.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/yishu/MultiThread$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/yishu/MultiThread.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/yishu/Piped$Print.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/yishu/Piped.class" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/nio/S.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/nio/S2.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/nio/fighting.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/concurrent/nio/hello.txt" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JVM/HeapOOM.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/nio/S.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/nio/S2.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/nio/fighting.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/nio/hello.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chongrusuo/Cache.java" afterPath="$PROJECT_DIR$/src/chongrusuo/Cache.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -156,8 +235,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="126" />
-    <option name="y" value="644" />
+    <option name="x" value="28" />
+    <option name="y" value="615" />
     <option name="width" value="1402" />
     <option name="height" value="877" />
   </component>
@@ -889,7 +968,7 @@
       <workItem from="1510567390200" duration="1592000" />
       <workItem from="1511523395173" duration="61000" />
       <workItem from="1516707099220" duration="570000" />
-      <workItem from="1545046393505" duration="113000" />
+      <workItem from="1545046393505" duration="135000" />
     </task>
     <task id="LOCAL-00001" summary="Thread类，Runnable接口，Callable接口，Thread.sleep(),Thread.yield(),Executor线程池，优先级">
       <created>1489658703949</created>
@@ -1013,7 +1092,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141889000" />
+    <option name="totallyTimeSpent" value="141911000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1025,7 +1104,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="126" y="644" width="1402" height="877" extended-state="0" />
+    <frame x="28" y="615" width="1402" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
