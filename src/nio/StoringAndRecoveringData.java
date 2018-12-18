@@ -23,15 +23,17 @@ public class StoringAndRecoveringData {
 
         stream.close();
         DataInputStream in = new DataInputStream(new BufferedInputStream(new FileInputStream("/Users/kang/Documents/github/concurrent/src/nio/hello.txt")));
-       System.out.println(in.readDouble());
+        System.out.println(in.readDouble());
         System.out.println(in.readUTF());
 
-       System.out.println(in.readUTF());
+        System.out.println(in.readUTF());
 
-       System.out.println(in.readDouble());
+        System.out.println(in.readDouble());
+        System.out.println("开发了一个新的首页");
+        System.out.println("开发了一个f1");
+        System.out.println("测试同学在sandbox环境测试");
 
     }
-
 
 
 }
