@@ -30,6 +30,7 @@ public class StoringAndRecoveringData {
 
         System.out.println(in.readDouble());
         System.out.println("开发了一个新的首页");
+        System.out.println("开发了一个f1");
 
     }
 
